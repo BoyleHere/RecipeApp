@@ -11,17 +11,6 @@ import android.view.View;
 import com.google.firebase.auth.FirebaseAuth;
 import com.hashmac.recipesapp.databinding.ActivitySettingBinding;
 
-/**
- * SettingActivity class
- * Our Design for the Setting Activity page is in activity_setting.xml
- * It's ready now, let's go to the next step
- * Need to add java code to this class
- * let's test our code
- * Works pretty well
- * In our next Video We will add Favorties Functionality
- * Thank you for watching this video
- * Happy Coding
- */
 
 public class SettingActivity extends AppCompatActivity {
     ActivitySettingBinding binding;

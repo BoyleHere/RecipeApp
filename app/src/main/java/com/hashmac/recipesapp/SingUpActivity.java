@@ -20,27 +20,6 @@ import com.hashmac.recipesapp.models.User;
 
 import java.util.Objects;
 
-/**
- * Our Signup Activity design is a simple activity with a single button, three text fields and a text view.
- * The button is used to signup the user and the text fields are used to enter the user's name, email and password.
- * The text view is used to display Signup Page title
- * The activity is launched when the user clicks the Signup button on the LoginActivity.
- * Instead of designing the Signup Activity from scratch, we will copy the Login Activity design and make the necessary changes.
- * Our design is ready, so we will complete the SignupActivity.java class.
- * our basic code is ready, so let's test our signup activity.
- * it works as expected.
- * in the next video we will connect our app to the Firebase.
- * Welcome Back, in this video we will connect our app to the Firebase.
- * For this, we need to create a new project in the Firebase console.
- * Let's create a new project. There are two ways to connect our app to the Firebase.
- * The first way is to use the Firebase Assistant in Android Studio.
- * The second way is to manually add the Firebase SDK to our app.
- * I will prefer 1st way.
- * Now we need to add dependencies to our app. and make some changes in the build.gradle file.
- * As our app is connected to the Firebase, we can use the Firebase Auth class to create a new user.
- * In next video we will create a login function in the LoginActivity.java class.
- * Thank you for watching this video.
- */
 
 public class SingUpActivity extends AppCompatActivity {
     ActivitySingUpBinding binding;

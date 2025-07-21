@@ -14,17 +14,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.hashmac.recipesapp.databinding.ActivitySplashBinding;
 
-/**
- * This class is used to show splash screen
- * Hello Guys, Welcome to my channel Hashmac, Today we will create navigation and login page in android studio.
- * So let's get started.
- * In the next video we will create MainActivity and design Home Page.
- * Thanks for watching this video.
- *
- * Hello Guys. Today we will create a Main Activity and design Home Page with Bottom Navigation bar.
- * So keep watching this video.
- * Let's get started.
- */
+
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
     private final int splashScreenTime = 1000; // 3 seconds

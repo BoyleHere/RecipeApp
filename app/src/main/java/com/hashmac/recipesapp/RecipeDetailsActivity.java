@@ -26,33 +26,6 @@ import com.hashmac.recipesapp.models.FavouriteRecipe;
 import com.hashmac.recipesapp.models.Recipe;
 import com.hashmac.recipesapp.room.RecipeRepository;
 
-/**
- * Welcome to HashMac
- * In this video we will design and load data
- * Our Design will be simple and similar to our Add new Recipe Page
- * Let's get started
- * Design is ready, now we will load data from our database
- * We will use the same method that we used in our Home Page
- * Let's test it now
- * Working Fine, Let's add some more features like Edit Recipe
- * Let's test Edit Feature
- * Edit works fine, just need to update data in app Automatically
-
- ----------------------------------------------------------------------
-
- * Date: 2023-04-28
- * Hello and welcome to HashMac
- * In this video we will add some more features to our Recipe Details Page
- * We will add feature of favorite and unfavorite and store Data in SQLite Database
- * For SQLite Database we will use Room Library
- * Let's get started
- * Time is short so i will copy most of the code from my previous project
- * Let's Add Database clas
- * Our Database code is complete, now we will Add some design to our Recipe Details Page
- * Let's test it now
- * Crash, let's fix it
- */
-
 public class RecipeDetailsActivity extends AppCompatActivity {
     ActivityRecipeDetailsBinding binding;
     @Override

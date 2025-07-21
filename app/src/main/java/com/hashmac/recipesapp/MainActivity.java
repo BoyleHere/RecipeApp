@@ -13,21 +13,7 @@ import androidx.navigation.ui.NavigationUI;
 import com.google.firebase.auth.FirebaseAuth;
 import com.hashmac.recipesapp.databinding.ActivityMainBinding;
 
-/**
- * Date: 2023-04-29
- * Hello Guy, Welcome to my Recipes App by Hashmac
- * We need to add one more feature to our app, which is the ability to login as Guest
- * Guest will be able to view All recipes, but not add or edit recipes
- * We will use Firebase Authentication to implement this feature
- * Let's start
- * Works Pretty Fine
- * Remember: Sometime you are tired and find it difficult to code, but don't give up
- * Just take a break and start again
- * Thanks for watching
- * Please Subscribe to my channel, like and share this video
- * See you in the next video
- * Bye Bye, Happy Coding :)
- */
+
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -43,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Please login to add recipe", Toast.LENGTH_SHORT).show();
             else
                 startActivity(new Intent(MainActivity.this, AddRecipeActivity.class));
+        });
+        binding.cameraFab.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, IngredientCameraActivity.class);
+            startActivity(intent);
         });
     }
 }

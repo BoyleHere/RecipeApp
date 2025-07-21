@@ -44,4 +44,19 @@
         android:importantForAccessibility="no"
         android:focusable="true" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/cameraFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Camera FAB"
+        android:src="@android:drawable/ic_menu_camera"
+        app:backgroundTint="@color/primary"
+        app:layout_constraintBottom_toTopOf="@id/floatingActionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@android:color/white" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

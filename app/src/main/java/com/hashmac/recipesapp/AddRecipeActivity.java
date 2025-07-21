@@ -36,29 +36,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * Hello Guys, This is the AddRecipeActivity.java file.
- * In this video we will learn how to add a new recipe to the database.
- * We will complete the AddRecipeActivity.java file.
- * Let's start.
- * 1. We will get Data from the user and validate it.
- * 2. We will validate the data.
- * 3. We will create a Recipe Object.
- * 4. We will pick the image from the gallery.
- * 5. We will upload the image to the firebase storage.
- * 6. We will save the recipe object in the firebase database.
- * 7. We will show a toast message to the user.
- * 8. We will finish the activity.
- * Now we will test our code to see if it is working or not.
- * A lot of errors in our dummy data, we will remove them.
- * There is no category in our Recipe Object, we will add it from firebase.
- * Let's test our code again. Again test
- * And App crashed, we will fix it.
- * Our App working fine. In Our Next Video we will create a Recipe Details Page. and load Recipes in RecyclerView.
- * Thank you for watching this video.
- * See you in the next video.
- * Bye Bye.
- */
 
 public class AddRecipeActivity extends AppCompatActivity {
     ActivityAddRecipeBinding binding;

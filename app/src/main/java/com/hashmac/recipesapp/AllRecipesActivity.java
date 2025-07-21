@@ -21,26 +21,6 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Date: 2023-04-28
- * Hello Guys, Welcome to HashMac
- * Let's load and filter recipes by category
- * Our filter by Category added, Let's test it
- * Filter by Category is working fine
- * Now we will add search feature
- * But before that, we will fix Home and Edit Recipe Activity
- * Everything is working fine
- * Now we will add search feature
- * Let's get started and search on StackOverflow
- * Let's test our search feature
- * Works but not as expected, Let's fix it
- * Works pretty well, Let's add some more features
- * See All Recipes implement now
- * let's test it
- *
- * Did you notice whenever we open app, Keyboad is open by default
- * We need to fix it
- */
 
 public class AllRecipesActivity extends AppCompatActivity {
     ActivityAllRecipesBinding binding;

@@ -246,8 +246,8 @@ public class ProfileFragment extends Fragment {
             }
         });
         User user = new User(); // Load From Firebase here, we will learn it in next video
-        user.setName("Hashmac");
-        user.setEmail("info@hashmac.com");
+        user.setName("Prashast");
+        user.setEmail("info@prashast.com");
         binding.tvUserName.setText(user.getName());
         binding.tvEmail.setText(user.getEmail());
         // We will load images later, whenever we add firebase database
