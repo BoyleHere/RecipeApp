@@ -21,6 +21,7 @@
     <h2>Features</h2>
     <ul>
         <li><strong>Recipe Search:</strong> Easily search for recipes by ingredients, cuisine, or dietary preferences.</li>
+        <li><strong>Recipe Search using image:</strong> Easily search for recipes by uploading an image of ingredients available.</li>
         <li><strong>Recipe Details:</strong> View detailed recipe instructions, ingredients, and nutritional information.</li>
         <li><strong>Favorites:</strong> Save your favorite recipes for quick access.</li>
         <li><strong>Guest Mode:</strong> Explore recipes without the need to create an account.</li>
